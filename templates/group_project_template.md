@@ -1,76 +1,25 @@
-PROJECT TITLE
-=============
+PROJECT TITLE: Climate Data Online (CDO)
 
-# OVERVIEW
-In this section describe the background for your application or analysis.  Be detailed enough to provide the 
+OVERVIEW -
 
-- motivation,
-- background literature,
-- basic problem that is being solved,
-- expected improvement your application will achieve, OR
-- expected outcomes of your analyis.
+Climate Data online or "CDO" provides access to climate data products through a simple, searchable online web mapping service.
+Users can find a variety of products, reports via CDO including the Global Historical Climatology Network-Daily and the new 1981-2010 Annual, Monthly and Daily 30-year Normals. CDO puts a priority on interpreting and applying scientific understanding to our extensive array of climate datasets. Some of the products and output derived from this effort include extreme event and dynamically generated climate information.
 
-# DATA
-In this section describe the data being used in your application or analysis.  You should include all details of:
+DATA -
 
-- the source of the data and where to obtain it,
-- the API (if any) used to obtain the data (e.g. Twitter API)
-- the original form of the data (web, csv, etc.),
-- the languages, tools and libraries used to process the data (web scraping tools, Python, CSV libraries, etc.),
-- any subsetting of the data used in your project if the full dataset was not used.
+All data we have taken is be openly available (obtained from public/open systems). We have taken a datset from WWW.DATA.GOV which gives a
+detailed description about Climate Normals, monthly climate reports, and drought information, analyses of weather and climate events, increasingly comparing recent events to expectations of future climate conditions, information detailing extreme events such as heat waves, droughts, tornadoes, and hurricanes have affected the United States since the dawn of time and climate information generated from examination of the data in the archives includes record temperatures, record precipitation and snowfall, climate extremes statistics.
 
-All data must be openly available (or obtained from public/open systems).  You may use an API to obtain data if the API is free and/or the account to access it is free.
+Some climate data online APIS are used to obtain this data for users in variety of formats such as CSV, XML, JSON.
+Source : WWW.DATA.GOV
 
+RESEARCH ANALYSIS -
 
-# RESEARCH QUESTIONS
-Describe the core questions you will be pursuing within the project.  These questions will lead the reader to your interest in the data and provide the bridge between your motivation and analysis.  
+The climate of the United States varies by location and by time of year. Our Project motivation is to bring Climate Normals,
+monthly climate reports, and drought information are a few of the many datasets and products found under one climate section. So users can easily get a publicly access to our web service 'CDO' and get the data in a variety of formats such as CSV, XML, JSON.
 
+PROJECT MANAGEMENT -
 
-# MODELS AND ANALYSIS
+Our Project team includes 3 members and our roles and contributions are following
 
-What models did you use to process your data and perform the analysis of your research questions?  
-
-Describe your methods and how you applied your models to the data.  
-
-
-# CODE AND APPLICATION
-
-For your application you will be writing code.  Please make sure your group:
-
-- provides the Github link to your code,
-- provides detailed instructions on how to compile and deploy your code,
-- provides any special instructions for running your code and/or applying data to see the results.
-
-The code needs to be Github and instructions on installation are in the README.md file at the root level.
-
-# PROJECT MANAGEMENT
-
-You will need to provide details on:
-
-- the team members,
-- the roles of each member,
-- the skills and contributions of each member.
-
-You will also provide details about the project deliverables and milestones.  These example tables should be used as a guide.
-
-# PROJECT TEAM, DELIVERABLES AND CHECKPOINTS
-These tables show  examples of the data that should go into each column and row.
-
-
-## TEAM
-
-| Team member | Roles and skills | Contributions |
-|-------------|-------------------------|---------------------------------------------|
-| MEMBER NAME | What will they do in the project?  What skills do they bring?  What interests will they explore? | Fill the contributions in when the deliverables have been completed and you have results to report.  These can be summarized, but the intent is that this will allow an easy way to see who did what. |
-| MEMBER #2 NAME | -- | -- |
-| MEMBER # _N_ NAME | -- | -- |
-
-## DELIVERABLES AND CHECKPOINTS
-
-The deliverable and checkpoints will be iteratively completed.  At the end of the project, there should be a fair amount of content these tables that details the who, what and when of your project.  Don't worry if you don't have all the deliverables sketched out -- this is a LIVING table, and should be updated frequently by all team members involved in the project.
-
-| Checkpoint date | Expected Deliverable                                                          | Responsible team member(s) | Checkpoint results                                                                                                                  |
-|---------------|-------------------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-|WHEN | What will be delivered?  These should be small enough tasks to complete in the time given and large enough to represent some complexity. | Who will delivery this?    | WHAT WERE THE RESULTS?  FILL THIS IN AFTER THE CHECKPOINT HAS PASSED! |
-|     ...          | -- | --                    |  -- |
-
+Vamsi Krishna : Data set required for project. Gokul : Data Analysis, Classification and Data testing. Venkateswara R Alluri(Optional) : Reporting the final data documentation.
